@@ -1,0 +1,101 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    margin: 2rem 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu > .dropdown {
+    position: relative;
+}
+
+.dropdown-btn {
+    background: #007bff;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.dropdown-btn:hover {
+    background: #0056b3;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    list-style: none;
+    padding: 0.5rem 0;
+    min-width: 200px;
+    z-index: 10;
+}
+
+.dropdown-content li {
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-content li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+    background: #f1f1f1;
+}
+
+#confirmation-message {
+    text-align: center;
+    color: green;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #f1f1f1;
+    color: #666;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
