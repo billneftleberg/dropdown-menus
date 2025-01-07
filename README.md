@@ -1,4 +1,4 @@
-# Secure JavaScript Dropdown Menu
+# Dropdown Menu
 
 This project provides a secure and detailed JavaScript dropdown menu for websites with a professional and formal design.
 
